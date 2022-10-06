@@ -43,7 +43,7 @@ img {
 	gap: 54px;
 	align-items: center;
 	/* justify-content: center; */
-	background-image: url(/images/bg-pattern.svg);
+	background-image: url(./images/bg-pattern.svg);
 	background-size: 100% 50%;
 	background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@ img {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-image: url(/images/pattern-circles.svg);
+	background-image: url(./images/pattern-circles.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 145px;
@@ -214,7 +214,7 @@ img {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-image: url(/images/icon-slider.svg);
+	background-image: url(./images/icon-slider.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-color: #10d8c4;
