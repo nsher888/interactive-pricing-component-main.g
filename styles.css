@@ -36,6 +36,10 @@ img {
 	height: auto;
 }
 
+body {
+	background-color: #f9faff;
+}
+
 .container {
 	min-height: 100vh;
 	display: flex;
@@ -223,11 +227,37 @@ img {
 	transition: all 0.2s;
 }
 
+/* THUMB FOR FIREFOX */
+
+.box__slider input::-moz-range-thumb {
+	position: relative;
+	appearance: none;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-image: url(./images/icon-slider.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #10d8c4;
+	box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
 .box__slider input::-webkit-slider-thumb:hover {
 	background-color: #7aeadf;
 }
 
+.box__slider input::-moz-range-thumb:hover {
+	background-color: #7aeadf;
+}
+
 .box__slider input::-webkit-slider-thumb:active {
+	background-color: #24aea1;
+}
+
+.box__slider input::-moz-range-thumb:active {
 	background-color: #24aea1;
 }
 
